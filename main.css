@@ -1,10 +1,15 @@
+html {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/294/691/large_2x/seamless-exotic-pattern-with-tropical-plants-and-geometric-background-vector.jpg");
+}
+
 body {
+  background-color: #ffe6e6;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  background-color: pink;
 }
 
 h1 {
@@ -31,7 +36,14 @@ input {
 
 .addOption {
   margin-top: 10px;
+  background-color: pink;
 }
+
+.goOption {
+  background-color: lightpink;
+  margin-bottom: 20px;
+}
+
 h2 {
   font-weight: lighter;
   font-size: 20px;
@@ -39,5 +51,5 @@ h2 {
   margin-bottom: 0px;
 }
 
-.LinkedIn {
+.linkedIn {
   margin: 20px 0px 20px 0px;
