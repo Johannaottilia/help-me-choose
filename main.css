@@ -21,7 +21,7 @@ h1 {
 
 .inputSection {
   margin: 50px 0px 80px 0px;
-  width: 400px;
+  width: 450px;
 }
 
 .inputs {
@@ -37,11 +37,37 @@ input {
 .addOption {
   margin-top: 10px;
   background-color: pink;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.addOption:hover {
+  background-color: #1C917E;
+  color: white;
 }
 
 .goOption {
-  background-color: lightpink;
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.goOption:hover {
+  background-color: #1C917E;
+  color: white;
 }
 
 h2 {
